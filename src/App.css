@@ -1,0 +1,9 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+}
+.app__main {
+  display: grid;
+  justify-content: center;
+}

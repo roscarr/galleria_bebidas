@@ -1,0 +1,42 @@
+.login {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 1360px;
+  height: 620px;
+  object-fit: contain;
+  background-position: center;
+  background-image: url("https://img.freepik.com/free-photo/selection-various-cocktails-table_140725-2909.jpg?w=2000");
+}
+.login__content {
+  background: rgb(204, 51, 102);
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.login__content > img {
+  width: 200px;
+  border-radius: 50%;
+  height: 200px;
+}
+.login__text {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.login__content > button {
+  background-color: white;
+  border: none;
+  padding: 5px;
+  color: rgb(204, 51, 102);
+  font-weight: 700;
+  border-radius: 5px;
+}
+.login__content > button:hover {
+  background-color: rgb(229, 116, 154);
+  color: white;
+  transition: 1s;
+  cursor: pointer;
+}

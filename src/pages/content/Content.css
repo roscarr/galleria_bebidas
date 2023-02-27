@@ -1,0 +1,20 @@
+.content {
+  display: grid;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+.content > div > p {
+  width: 500px;
+  margin-top: 50px;
+}
+.content > div > h2 {
+  text-align: center;
+  font-size: xx-large;
+}
+
+@media screen and (max-width: 400px) {
+  .content > div > p {
+    width: 300px;
+  }
+}

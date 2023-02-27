@@ -1,0 +1,30 @@
+.header {
+  background-color: rgb(204, 51, 102);
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__link {
+  font-weight: bolder;
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.header__rightTitle {
+  text-decoration: none;
+  margin-right: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+  }
+}
